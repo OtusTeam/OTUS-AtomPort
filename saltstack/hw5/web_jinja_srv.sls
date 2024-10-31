@@ -1,7 +1,7 @@
 get_indexhtml_file:
   file.managed:
     - name: /home/user/index.html
-    - source: salt://files/index.html
+    - source: salt://files/index.html.tmpl
     - user: user
     - group: user
     - mode: 0640
