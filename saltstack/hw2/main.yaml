@@ -1,0 +1,16 @@
+---
+name: Albert Rahman
+state: working
+worker_info:
+  company_name: Greenatom
+  position: DevOps Engineer
+hobby:
+  - Reading
+  - Embedded development
+certificates:
+  - otus:
+    - devops
+    - python developer
+  - college:
+    - MFTI
+    - MIT
