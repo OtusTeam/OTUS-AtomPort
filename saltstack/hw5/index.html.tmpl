@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atom.Port</title>
+  </head>
+  <body>
+   <h1>Inventory: <font color=red> {{ grains.get('fqdn') }}</font></h1>
+   <p><b>Модель ЦПУ:</b> {{ grains.get('cpu_model') }}</p>
+   <p><b>Имя ОС:</b> {{ grains.get('osfullname') }}</p>
+   <p><b>Версия ядра:</b> {{ grains.get('kernelversion') }}</p>
+   <p><b>Версия Salt:</b> {{ grains.get('saltversion') }}</p>
+  </body>
+</html>
