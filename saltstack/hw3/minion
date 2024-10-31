@@ -1,0 +1,10 @@
+id: alt-red-cloud
+master: alt.atomport.loc
+color: False
+ipv6: False
+disable_modules:
+  - test
+  - file
+grains:
+  report_template: 'rep.txt.j2'
+  cabinet: 14
